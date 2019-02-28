@@ -1,0 +1,11 @@
+main: net.zhuoweizhang.BLScriptEnable
+name: "BLScriptEnable"
+author: "zhuoweizhang"
+description: "Sends the enable ModPE script command to connected BlockLauncher clients"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: POSTWORLD
+permissions:
+  blscriptenable:
+    description: "Allows player to use BlockLauncher client script"
+    default: op
